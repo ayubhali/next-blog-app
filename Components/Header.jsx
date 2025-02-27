@@ -9,8 +9,9 @@ const Header = () => {
         <Image
           src={assets.logo}
           width={180}
+          height={50}
           alt="logo"
-          className="w-[130px] sm:w-auto"
+          className="w-[180px]"
         />
         <button className="flex items-center gap-2 font-medium py-1 px-3 sm:py-3 sm:px-6 border border-solid border-black shadow-[-7px_7px_0px_#000000]">
           Get Started <Image src={assets.arrow} alt="arrow" />
