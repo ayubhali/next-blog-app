@@ -17,7 +17,7 @@ const BlogList = () => {
 
   return (
     <div className='flex-1 py-5 px-5 sm:py-12 sm:px-16'>
-      <div className='flex flex-wrap gap-8'>
+      <div className='flex flex-wrap gap-8 justify-center'>
         {blogs.map((item, index) => {
           return (
             <BlogItem
@@ -29,6 +29,7 @@ const BlogList = () => {
               authorImg={item.authorImg}
               date={item.date}
               coverImg={item.image}
+              category={item.category}
             />
           )
         })}
